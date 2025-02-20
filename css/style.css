@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.navbar ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    width: 135px;
+}
+.navbar ul li a{
+    font-size: 23px;
+    text-decoration: none;
+    color: black ;
+}
+
+.navbar ul .inicio:hover{
+    background-color: #FFFF38;
+    cursor: pointer;
+    transition: 200ms;
+}
+.navbar ul .contato:hover{
+    background-color: #a8d19f;
+    cursor: pointer;
+    transition: 200ms;
+}
+.navbar ul .sobre:hover{
+    background-color: #B2D8DF;
+    cursor: pointer;
+    transition: 200ms;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+.card-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+}
+.imagem img{
+    max-width: 500px;
+    border-radius: 5px;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+}
+.palmeiras{
+    display: flex;
+    justify-content: center;
+}
+.imagemverdao{
+    display: flex;
+    justify-content: center;
+}
+.imagemverdao img{
+    max-width: 50%;
+}
