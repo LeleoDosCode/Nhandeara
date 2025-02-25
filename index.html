@@ -7,6 +7,9 @@
     <title>Nhan</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -64,13 +67,31 @@
                 </div>
             </div>
         </div>
-        <div class="palmeiras">
-            <div class="imagemverdao">
-                <img src="img/Escudo-do-palmeiras.webp" alt="">
+        <div class="calendario">
+            <div class="month-selector">
+                <button class="month-button" onclick="changeMonth(-1)">◀</button>
+                <h2 id="month-name">Outubro 2024</h2>
+                <button class="month-button" onclick="changeMonth(1)">▶</button>
+            </div>
+            <div class="calendar" id="calendar"></div>
+            <div id="info-card" class="info-card">
+                <h2 id="info-title"></h2>
+                <div id="info-content"></div>
+            </div>
+            <div id="info-xonadocard" class="info-xonadocard">
+                <h2 id="info-title"></h2>
+                <div id="info-content"></div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                <p>Desenvolvido pelo <a href="https://www.instagram.com/leoz.sigolo">namorado da Nhan</a> para <a href="https://www.instagram.com/nhandeara.mourao">Nhan</a></p>
+            </div>
+    </footer>
 </body>
 <script src="js/dropdown.js"></script>
+<script src="js/calendar.js"></script>
 
 </html>

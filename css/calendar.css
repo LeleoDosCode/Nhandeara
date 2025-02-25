@@ -1,0 +1,145 @@
+.month-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.month-button {
+    background-color: #FD445D;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.month-button:hover {
+    background-color: #c43649;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.day {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.day:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+}
+.dayXonado{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd445d;
+    border-radius: 10px;
+    border: 2px solid #c23e54;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.dayXonado:hover {
+    background-color: #da3c51;
+    transform: scale(1.1);
+}
+.dayNamorando{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdc244;
+    border-radius: 10px;
+    border: 2px solid #cfa03a;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.dayNamorando:hover {
+    background-color: #cfa03a;;
+    transform: scale(1.1);
+}
+.ChoroYLagrimas {
+    display: none;
+    background: #F0F0F0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #b3b3b3;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    transition: opacity 0.3s ease-in-out;
+}
+.Xonado {
+    display: none;
+    background: #fd445d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 102, 102, 0.3);
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    transition: opacity 0.3s ease-in-out;
+}
+.namorando {
+    display: none;
+    background: #EDB641;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #bdac4a4d;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    transition: opacity 0.3s ease-in-out;
+}
+.info-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.fade-in {
+    opacity: 1;
+}
+.fade-out {
+    opacity: 0;
+}
+.secaoEterna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.etern{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70vw;
+    gap: 20px;
+}
+.etern a{
+    cursor: pointer;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.fotos img{
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 5px;
+}

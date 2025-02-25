@@ -66,14 +66,14 @@
     display: flex;
     justify-content: center;
 }
-.palmeiras{
-    display: flex;
-    justify-content: center;
+.card-area{
+    padding-bottom: 25px;
+    margin-bottom: 75px;
+    border-bottom: 5px solid black;
 }
-.imagemverdao{
-    display: flex;
-    justify-content: center;
+.calendario{
 }
-.imagemverdao img{
-    max-width: 50%;
+section{
+    border-bottom: 5px solid black;
+    padding-bottom: 50px;
 }
