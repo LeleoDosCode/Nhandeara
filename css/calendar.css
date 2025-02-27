@@ -167,7 +167,7 @@
 
 @media (max-width: 480px) {
     .fotos img {
-        max-width: 150px;
+        max-height: 150px;
     }
     .fotos{
         gap: 25px;
