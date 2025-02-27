@@ -57,6 +57,9 @@
     display: flex;
     justify-content: space-evenly;
     margin: 20px 0 0 0;
+    padding-bottom: 25px;
+    margin-bottom: 75px;
+    border-bottom: 5px solid black;
 }
 .imagem img{
     max-width: 500px;
@@ -65,15 +68,51 @@
 .texto{
     display: flex;
     justify-content: center;
-}
-.card-area{
-    padding-bottom: 25px;
-    margin-bottom: 75px;
-    border-bottom: 5px solid black;
-}
-.calendario{
-}
+} 
 section{
     border-bottom: 5px solid black;
     padding-bottom: 50px;
+}
+@media (max-width: 480px){
+    .navbar ul{
+        width: 100%;
+    }
+    .navbar ul li{
+        width: 100%;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 40px;
+        height: 15vh;
+    }
+    .toggle{
+        font-size: 10px;
+    }
+    .texto h1{
+        font-size: 8px;
+    }
+    .card-area{
+        margin: 0;
+        height: 25vh;
+        padding-top: 15px;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 135px;
+        align-content: center;
+    }
+    .imagem img{
+        max-width: 98%;
+        height: 101.25px;
+    }
+    .secaoEterna{
+        width: 100%;
+    }
+    .etern{
+        max-width: 100vw;
+    }
 }

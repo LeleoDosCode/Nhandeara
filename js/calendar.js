@@ -77,6 +77,12 @@ function generateCalendar() {
         let eternElement = document.createElement('div');
         let fotosElement = document.createElement('div');
         const calendarElement = document.querySelector('.calendar');
+        let infoCardElement = document.querySelector('.info-card');
+        infoCardElement.style.display = 'none';
+        let infoCardXonadoElement = document.querySelector('.info-xonadocard');
+        infoCardElement.style.display = 'none';
+        let infoCardNamorandoElement = document.querySelector('.info-cardnamorando');
+        infoCardElement.style.display = 'none';
         calendarElement.classList.remove('calendar');
         calendarElement.classList.add('secaoEterna');
         eternElement.className = 'etern';
