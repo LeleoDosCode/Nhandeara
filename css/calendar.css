@@ -220,4 +220,13 @@
         cursor: pointer;
         transition: background-color 0.3s, transform 0.2s;
     }
+    .namorando{
+        width: 90%;
+    }
+    .Xonado{
+        width: 90%;
+    }
+    .ChoroYLagrimas{
+        width: 90%;
+    }
 }

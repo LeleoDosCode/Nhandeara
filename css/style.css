@@ -115,4 +115,7 @@ section{
     .etern{
         max-width: 100vw;
     }
+    section{
+        min-height: 85vh;
+    }
 }
